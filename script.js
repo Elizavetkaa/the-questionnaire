@@ -11,12 +11,12 @@ form.addEventListener("submit", (event) => {
     const agree = document.getElementById('agree').checked;
 
     const data = {
-        name: name,
-        secondName: secondName,
-        email: email,
-        phone: phone,
-        agree: agree
-    };
+        name,
+        secondName,
+        email,
+        phone,
+        agree
+    }
 
     fetch('https://Elizavetkaa.space/user', {
         method: 'POST',
